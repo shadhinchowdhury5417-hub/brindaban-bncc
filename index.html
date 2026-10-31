@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brindaban BNCC | Cadet Directory</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f6fa;color:#17243a}
+header{background:#102c49;color:white;padding:22px 16px}
+.brand{font-size:21px;font-weight:bold}
+.sub{font-size:12px;color:#cbd9e8;margin-top:7px}
+.hero{background:#173e60;color:white;padding:38px 20px;text-align:center}
+.hero h1{font-size:27px;margin:0 0 12px}
+.hero p{color:#d5e5f3}
+.container{max-width:950px;margin:auto;padding:20px}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:-5px}
+.stat{background:white;padding:20px;border-radius:12px;text-align:center;box-shadow:0 2px 9px #00000010}
+.stat h2{color:#174c75;margin:5px;font-size:27px}
+.stat p{margin:5px;color:#64748b;font-size:13px}
+.section{margin-top:28px}
+.section h2{font-size:20px}
+.search{width:100%;padding:14px;border:1px solid #d5dce5;border-radius:9px;font-size:15px}
+.empty{background:white;padding:35px 15px;border-radius:12px;text-align:center;color:#64748b;margin-top:15px}
+footer{text-align:center;background:#102c49;color:#d5e5f3;padding:24px;font-size:13px;margin-top:35px}
+@media(min-width:650px){.stats{grid-template-columns:repeat(4,1fr)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">🛡 BRINDABAN BNCC</div>
+  <div class="sub">GOVERNMENT COLLEGE, HABIGANJ</div>
+</header>
+<section class="hero">
+  <h1>CADET MANAGEMENT SYSTEM</h1>
+  <p>DISCIPLINE • KNOWLEDGE • SERVICE</p>
+  <p>Welcome to Brindaban Government College BNCC</p>
+</section>
+<main class="container">
+  <div class="stats">
+    <div class="stat"><h2 id="total">0</h2><p>Total Cadets</p></div>
+    <div class="stat"><h2 id="active">0</h2><p>Active Cadets</p></div>
+    <div class="stat"><h2 id="ranks">0</h2><p>Cadet Ranks</p></div>
+    <div class="stat"><h2>Public</h2><p>Directory Access</p></div>
+  </div>
+  <section class="section">
+    <h2>Cadet Directory</h2>
+    <input class="search" type="search" placeholder="Search Cadet Name or ID..." disabled>
+    <div class="empty">
+      <h3>Cadet Directory Coming Soon</h3>
+      <p>Cadet profiles will appear here.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>BRINDABAN GOVERNMENT COLLEGE BNCC</p>
+  <p>Discipline • Knowledge • Service</p>
+</footer>
+</body>
+</html>
